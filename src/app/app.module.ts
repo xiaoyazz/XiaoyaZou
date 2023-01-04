@@ -6,18 +6,26 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
-import { HeadfootModule } from './headfoot/headfoot.module';
-import { MaterialModule } from './headfoot/material-ui/material-ui.module';
+import { MaterialModule } from './modules/material-ui.module';
+import { ContentComponent } from './content/content.component';
+import { HomeComponent } from './home/home.component';
+import { AboutComponent } from './about/about.component';
+import { ProjectsComponent } from './projects/projects.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ContentComponent,
+    HomeComponent,
+    AboutComponent,
+    ProjectsComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    HeadfootModule,
     MaterialModule
   ],
   providers: [],

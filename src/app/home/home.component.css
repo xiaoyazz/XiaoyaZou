@@ -1,0 +1,15 @@
+h1 {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.home-details {
+  margin-top: 10%;
+  font-weight: 200;
+  font-size:22px;
+}
+
+.home{
+  margin: 20% 10%;
+}

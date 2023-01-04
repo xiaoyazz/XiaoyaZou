@@ -1,4 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200;400;600&display=swap');
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html, body { 
+  height: 100%;
+}
+body { 
+  margin: 0; 
+  background-color: #3c3c3c;
+  color: #fff;
+}
+
+/* Override mat tab ink color*/
+.mat-tab-group.mat-primary .mat-ink-bar, .mat-tab-nav-bar.mat-primary .mat-ink-bar{
+    background:#f4fb68;
+  }
+ 
+/* Change tab lable color */
+.mat-tab-label {
+  color: #fff;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 16px;
+  font-weight: 200;
+}
