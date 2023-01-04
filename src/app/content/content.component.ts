@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Home } from '../myClasses/home';
 
 @Component({
   selector: 'app-content',
@@ -11,5 +12,13 @@ export class ContentComponent implements OnInit {
 
   ngOnInit(): void {
   }
+
+  // Bind home info
+  home: Home = {
+    title: "Hi, I'm Xiaoya 👋",
+    details1: "// My first name can be pronounced as \"Shi-ao-ya\"",
+    details2: "// I'm a college student and I love building things",
+    details3: "// Nice to meet you!"
+  };
 
 }
