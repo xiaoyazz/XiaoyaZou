@@ -1,10 +1,20 @@
 .footer {
     position:fixed;
     margin:auto;
-    bottom:0;
+    bottom:2%;
     text-align: center;
-    color: rgb(201, 201, 201);
+    color: rgb(233, 233, 233);
+    font-size: 18px;
     font-weight: 200;
     font-family: 'IBM Plex Mono', monospace;
     width: 100%;
+}
+
+i {
+    margin-right: 15px;
+}
+
+i:hover {
+    color:#07fcf8;
+    cursor: pointer;
 }
