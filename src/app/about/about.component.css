@@ -1,3 +1,8 @@
+.about{
+  margin: 10% 15%;
+}
+
+
 h2 {
   font-family: 'IBM Plex Mono', monospace;
   font-size: 40px;
@@ -9,35 +14,28 @@ h4 {
     color: #f4fb68;
 }
 
-.about{
-  margin: 10% 15%;
-}
-
 .about-details {
     display: flex;
     justify-content: space-between;
+    animation-delay: 3s;
 }
 
 .about-details-text {
   margin-top: 5%;
-  margin-right: 5%;
-  font-weight: 200;
+  font-weight: 400;
   font-size:20px;
   line-height: 1.6;
   width:60%;
-  color: rgb(221, 221, 221);
+  color: rgb(233, 233, 233);
 }
 
 img {
     width: 300px;
     border-radius: 50%;
-    filter: brightness(60%);
+    filter: brightness(90%);
     height: 300px;
 }
 
-img:hover {
-    filter: brightness(80%);
-}
 
 ul {
     margin-left: 0;
@@ -59,11 +57,18 @@ li::before {
 }
 
 li:hover {
-  color: #fff;
+  color: #07fcf8;
+  cursor: crosshair;
 }
 
-@media only screen and (max-width: 900px) {
-  h1 {
+.anim {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: moveup 0.8s linear forwards;
+}
+
+@media only screen and (max-width: 1030px) {
+  h2 {
     font-size: 26px;
   }
 
@@ -71,4 +76,22 @@ li:hover {
     font-size: 16px;
   }
 
+  #img {
+    display: none;
+  }
+
+  .about-details-text {
+    width: 100%;
+  }
+
+}
+
+@media only screen and (max-width: 768px){
+  .about{
+    margin: 2rem;
+  }
+  h2{
+    font-size: 24px;
+    font-weight: 400;
+  }
 }

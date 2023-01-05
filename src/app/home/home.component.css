@@ -29,13 +29,17 @@
   cursor: pointer;
 }
 
+.home-details a {
+  animation-delay: 0.8s;
+}
+
 a:hover {
   background-color: #43423c;
 }
 
 .home-details p {
   animation-delay: 0.5s;
-  color: rgb(221, 221, 221);
+  color: rgb(233, 233, 233);
 }
 
 .anim {
@@ -51,13 +55,31 @@ a:hover {
   }
 }
 
-@media only screen and (max-width: 900px) {
-  h1 {
+@media only screen and (max-width: 1030px) {
+
+  .home{
+    margin: 15% 2rem;
+  }
+  .home h1 {
     font-size: 30px;
+    font-weight: 400;
   }
 
   .home-details {
     font-size: 16px;
   }
 
+}
+
+@media only screen and (max-width: 768px){
+
+    .home h1 {
+      font-size: 24px;
+      font-weight: 400;
+    }
+    .btn-email {
+    text-align: center;
+    width: 80%;
+    margin-top:20px;
+  }
 }

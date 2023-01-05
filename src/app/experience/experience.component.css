@@ -20,7 +20,7 @@ h4 {
 }
 
 .experience-details {
-    color: rgb(221, 221, 221);
+    color: rgb(233, 233, 233);
     margin: 5% 15%;
 }
 
@@ -47,7 +47,7 @@ ul {
     padding: 0;
     line-height: 1.6;
     font-size: 16px;
-    font-weight: 200;
+    font-weight: 400;
 }
 
 li {
@@ -62,4 +62,35 @@ li::before {
     font-size: 20px;
     line-height: 12px;
     letter-spacing: 10px;
+}
+
+li:hover {
+    color:#07fcf8;
+    cursor: crosshair;
+}
+
+.anim {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: moveup 0.8s linear forwards;
+}
+
+@media only screen and (max-width: 768px){
+    .work {
+        display:contents;
+    }
+
+    .experience {
+        margin: 0 0 10% 0;
+    }
+
+    .org {
+        width: 100%;
+    }
+
+    .job-title {
+    font-size: 20px;
+    font-weight: 400;
+    }
+
 }

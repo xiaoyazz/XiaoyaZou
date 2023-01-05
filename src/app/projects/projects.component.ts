@@ -20,4 +20,15 @@ export class ProjectsComponent implements OnInit {
     window.open("https://github.com/xiaoyazz/Quiz");
   }
 
+  todolist() {
+    window.open("https://xiaoyazz.github.io/todo-list-app/");
+  }
+
+  todolistCode() {
+    window.open("https://github.com/xiaoyazz/todo-list-app");
+  }
+
+  bakeryCode() {
+    window.open("https://github.com/xiaoyazz/MyBakery");
+  }
 }

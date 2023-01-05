@@ -1,4 +1,4 @@
-<div class="projects">
+<div class="projects anim">
   <div class="projects-title">
     <h4>03.</h4>
     <h2>Projects</h2>
@@ -19,11 +19,11 @@
         </p>
       </mat-card-content>
       <mat-card-actions>
-        <button (click)="quiz()" mat-button>
+        <button (click)="quiz()">
           <i class="fa-solid fa-arrow-up-right-from-square"></i>
         </button>
-        <button (click)="quizCode()" mat-button>
-          <i class="fa-solid fa-code"></i>
+        <button (click)="quizCode()">
+          <i class="fa-brands fa-github"></i>
         </button>
       </mat-card-actions>
     </mat-card>
@@ -37,10 +37,12 @@
         </p>
       </mat-card-content>
       <mat-card-actions>
-        <button mat-button>
+        <button (click)="todolist()">
           <i class="fa-solid fa-arrow-up-right-from-square"></i>
         </button>
-        <button mat-button><i class="fa-solid fa-code"></i></button>
+        <button (click)="todolistCode()">
+          <i class="fa-brands fa-github"></i>
+        </button>
       </mat-card-actions>
     </mat-card>
     <mat-card class="project-card">
@@ -53,10 +55,12 @@
         </p>
       </mat-card-content>
       <mat-card-actions>
-        <button mat-button>
+        <!-- <button>
           <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </button> -->
+        <button (click)="bakeryCode()">
+          <i class="fa-brands fa-github"></i>
         </button>
-        <button mat-button><i class="fa-solid fa-code"></i></button>
       </mat-card-actions>
     </mat-card>
   </div>
