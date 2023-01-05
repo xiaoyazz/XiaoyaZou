@@ -1,15 +1,63 @@
-h1 {
+.home{
+  margin: 15%;
+}
+
+.home h1 {
   font-family: 'IBM Plex Mono', monospace;
   font-size: 60px;
   font-weight: 600;
 }
 
 .home-details {
-  margin-top: 10%;
+  margin-top: 6%;
   font-weight: 200;
   font-size:22px;
+  animation-delay: 3s;
 }
 
-.home{
-  margin: 20% 10%;
+.btn-email {
+  border: 1px solid #f4fb68;
+  background-color: #4d4c45;
+  color: #f4fb68;
+  font-size: 18px;
+  margin-top: 5%;
+  border-radius: 5px;
+  padding: 20px 30px;
+  display: inline-block;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+}
+
+a:hover {
+  background-color: #43423c;
+}
+
+.home-details p {
+  animation-delay: 0.5s;
+  color: rgb(221, 221, 221);
+}
+
+.anim {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: moveup 0.5s linear forwards;
+}
+
+@keyframes moveup {
+  100%{
+    opacity: 1;
+    transform:translateY(0px);
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  .home-details {
+    font-size: 16px;
+  }
+
 }

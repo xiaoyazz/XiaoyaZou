@@ -1,7 +1,15 @@
 <div class="about">
-  <h2></h2>
+  <h4>01.</h4>
+  <h2>{{ aboutInfo.title }}</h2>
   <div class="about-details">
-    <p></p>
-    <ul></ul>
+    <div class="about-details-text">
+      <p>{{ aboutInfo.details }}</p>
+      <ul>
+        <li *ngFor="let x of listInfo">{{ x.name }}</li>
+      </ul>
+    </div>
+    <div id="img">
+      <img src="assets/images/xz-pic.jpg" />
+    </div>
   </div>
 </div>

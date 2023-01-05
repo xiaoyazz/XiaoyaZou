@@ -1,0 +1,14 @@
+h2 {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+h4 {
+    font-weight: 600;
+    color: #f4fb68;
+}
+
+.projects {
+  margin: 5% 10%;
+}
