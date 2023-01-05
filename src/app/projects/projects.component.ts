@@ -12,4 +12,12 @@ export class ProjectsComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  quiz() {
+    window.open("https://xiaoyazz.github.io/Quiz/");
+  }
+
+  quizCode() {
+    window.open("https://github.com/xiaoyazz/Quiz");
+  }
+
 }
