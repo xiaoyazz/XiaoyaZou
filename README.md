@@ -1,6 +1,7 @@
 # XiaoyaZou
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.6.
+<img width="600" src="https://user-images.githubusercontent.com/84748829/210911156-effdbc62-de40-4820-9f9d-1370c86aa8b0.JPG">
 
 ## Development server
 
