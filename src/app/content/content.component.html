@@ -1,8 +1,37 @@
-<mat-tab-group mat-align-tabs="center">
+<!-- Regular view -->
+<mat-tab-group mat-align-tabs="center" class="regular-tab">
   <mat-tab label="Home"><app-home [homeInfo]="home"></app-home></mat-tab>
   <mat-tab label="About"
     ><app-about [aboutInfo]="about" [listInfo]="tech"></app-about
   ></mat-tab>
   <mat-tab label="Experience"><app-experience></app-experience></mat-tab>
   <mat-tab label="Projects"><app-projects></app-projects></mat-tab>
+</mat-tab-group>
+
+<!-- Mobile view -->
+<mat-tab-group mat-align-tabs="center" class="mobile-tab">
+  <mat-tab>
+    <ng-template mat-tab-label>
+      <i class="fa-solid fa-house-user"></i>
+    </ng-template>
+    <app-home [homeInfo]="home"></app-home>
+  </mat-tab>
+  <mat-tab>
+    <ng-template mat-tab-label>
+      <i class="fa-solid fa-face-smile"></i>
+    </ng-template>
+    <app-about [aboutInfo]="about" [listInfo]="tech"></app-about>
+  </mat-tab>
+  <mat-tab>
+    <ng-template mat-tab-label>
+      <i class="fa-solid fa-briefcase"></i>
+    </ng-template>
+    <app-experience></app-experience>
+  </mat-tab>
+  <mat-tab>
+    <ng-template mat-tab-label>
+      <i class="fa-sharp fa-solid fa-lightbulb"></i>
+    </ng-template>
+    <app-projects></app-projects>
+  </mat-tab>
 </mat-tab-group>

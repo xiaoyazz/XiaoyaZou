@@ -1,11 +1,11 @@
 .about{
-  margin: 10% 15%;
+  margin: 9%;
 }
 
 
 h2 {
   font-family: 'IBM Plex Mono', monospace;
-  font-size: 40px;
+  font-size: 32px;
   font-weight: 600;
 }
 
@@ -21,9 +21,9 @@ h4 {
 }
 
 .about-details-text {
-  margin-top: 5%;
-  font-weight: 400;
-  font-size:20px;
+  margin-top: 2%;
+  font-weight: 200;
+  font-size:16px;
   line-height: 1.6;
   width:60%;
   color: rgb(233, 233, 233);
@@ -39,10 +39,10 @@ h4 {
 }
 
 img {
-    width: 300px;
+    width: 200px;
     border-radius: 50%;
     filter: brightness(90%);
-    height: 300px;
+    height: 200px;
 }
 
 

@@ -4,69 +4,78 @@
     <h2>Projects</h2>
   </div>
   <div class="projects-details">
-    <mat-card class="project-card">
-      <img
-        mat-card-image
-        src="assets/images/myquizapp.jpeg"
-        alt="My Quiz App"
-      />
-      <mat-card-content>
-        <h3>My Quiz App</h3>
-        <p>
-          A quiz app allowing user to take quizzes with multiple topics.
-          Developed with HTML, CSS, JavaScript. Fetch data from local json files
-          and open web api.
-        </p>
-      </mat-card-content>
-      <mat-card-actions>
-        <button (click)="quiz()">
-          <i class="fa-solid fa-arrow-up-right-from-square"></i>
-        </button>
-        <button (click)="quizCode()">
-          <i class="fa-brands fa-github"></i>
-        </button>
-      </mat-card-actions>
-    </mat-card>
-    <mat-card class="project-card">
-      <img mat-card-image src="assets/images/todolist.jpeg" alt="To-Do List" />
-      <mat-card-content>
-        <h3>To-Do List</h3>
-        <p>
-          A to-do list app allowing user to create, cross and clear tasks.
-          Developed with HTML, CSS, and JavaScript. Save data in localStorage.
-        </p>
-      </mat-card-content>
-      <mat-card-actions>
-        <button (click)="todolist()">
-          <i class="fa-solid fa-arrow-up-right-from-square"></i>
-        </button>
-        <button (click)="todolistCode()">
-          <i class="fa-brands fa-github"></i>
-        </button>
-      </mat-card-actions>
-    </mat-card>
-    <mat-card class="project-card">
-      <img mat-card-image src="assets/images/mybakery.jpeg" alt="My Bakery" />
-      <mat-card-content>
-        <h3>My Bakery</h3>
-        <p>
-          An online bakery shop allowing user to login, view and buy product.
-          Developed with ASP.NET Core Blazor Server.
-        </p>
-      </mat-card-content>
-      <mat-card-actions>
-        <!-- <button>
+    <div class="card-group">
+      <mat-card class="project-card">
+        <img
+          mat-card-image
+          src="assets/images/myquizapp.jpeg"
+          alt="My Quiz App"
+        />
+        <mat-card-content>
+          <h3>My Quiz App</h3>
+          <p>
+            A quiz app allowing user to take quizzes with multiple topics.
+            Developed with HTML, CSS, JavaScript. Fetch data from local json
+            files and open web api.
+          </p>
+        </mat-card-content>
+        <mat-card-actions>
+          <button (click)="quiz()">
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </button>
+          <button (click)="quizCode()">
+            <i class="fa-brands fa-github"></i>
+          </button>
+        </mat-card-actions>
+      </mat-card>
+      <mat-card class="project-card">
+        <img
+          mat-card-image
+          src="assets/images/todolist.jpeg"
+          alt="To-Do List"
+        />
+        <mat-card-content>
+          <h3>To-Do List</h3>
+          <p>
+            A to-do list app allowing user to create, cross and clear tasks.
+            Developed with HTML, CSS, and JavaScript. Save data in localStorage.
+          </p>
+        </mat-card-content>
+        <mat-card-actions>
+          <button (click)="todolist()">
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </button>
+          <button (click)="todolistCode()">
+            <i class="fa-brands fa-github"></i>
+          </button>
+        </mat-card-actions>
+      </mat-card>
+      <mat-card class="project-card">
+        <img mat-card-image src="assets/images/mybakery.jpeg" alt="My Bakery" />
+        <mat-card-content>
+          <h3>My Bakery</h3>
+          <p>
+            An online bakery shop allowing user to login, view and buy product.
+            Developed with ASP.NET Core Blazor Server.
+          </p>
+        </mat-card-content>
+        <mat-card-actions>
+          <!-- <button>
           <i class="fa-solid fa-arrow-up-right-from-square"></i>
         </button> -->
-        <button (click)="bakeryCode()">
-          <i class="fa-brands fa-github"></i>
-        </button>
-      </mat-card-actions>
-    </mat-card>
-  </div>
-  <div class="btn-view">
-    <a href="https://github.com/xiaoyazz" target="_blank" class="btn-view-more"
-      >View More</a
-    >
+          <button (click)="bakeryCode()">
+            <i class="fa-brands fa-github"></i>
+          </button>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+    <div class="btn-view">
+      <a
+        href="https://github.com/xiaoyazz"
+        target="_blank"
+        class="btn-view-more"
+        >View More</a
+      >
+    </div>
   </div>
 </div>

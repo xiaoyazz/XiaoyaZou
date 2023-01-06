@@ -1,16 +1,15 @@
 .footer {
-    position:fixed;
-    margin:auto;
-    bottom:2%;
+    position:relative;
+    margin-top:8%;
+    bottom:10px;
     text-align: center;
     color: rgb(233, 233, 233);
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'NTR', sans-serif;
     width: 100%;
 }
 
 p {
     font-size: 18px;
-    font-family: 'NTR', sans-serif;
 }
 
 i {

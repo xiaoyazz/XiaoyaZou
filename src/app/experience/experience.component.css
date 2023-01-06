@@ -1,31 +1,24 @@
 .experience{
   margin: 10%;
-  display: flexbox;
 }
 
 h2 {
   font-family: 'IBM Plex Mono', monospace;
-  font-size: 40px;
+  font-size: 32px;
   font-weight: 600;
 }
 
 h4 {
-    font-weight: 600;
+    font-weight: 400;
     color: #04fccb;
 }
 
-.title {
-    margin-bottom: 10%;
-    margin: 5% 15%;
-}
 
 .experience-details {
+    margin-top: 5%;
     color: rgb(233, 233, 233);
-    margin: 5% 15%;
-}
-
-.work{
     display: flex;
+    justify-content: space-between;
 }
 
 .org{
@@ -39,6 +32,7 @@ h4 {
 }
 
 .job-duration {
+    font-size: 14px;
     font-weight: 200;
 }
 
@@ -47,7 +41,7 @@ ul {
     padding: 0;
     line-height: 1.6;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 200;
 }
 
 li {
@@ -76,12 +70,12 @@ li:hover {
 }
 
 @media only screen and (max-width: 768px){
-    .work {
+    .experience-details {
         display:contents;
     }
 
     .experience {
-        margin: 0 0 10% 0;
+        margin: 2rem;
     }
 
     .org {
