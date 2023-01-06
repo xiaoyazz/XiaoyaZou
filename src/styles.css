@@ -1,5 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200;400;600&family=NTR&display=swap');
 
 html, body { 
   height: 100%;
@@ -7,17 +7,17 @@ html, body {
 body { 
   margin: 0; 
   background-color: #3c3c3c;
-opacity: 0.9;
-background-color: #3c3c3c;
-opacity: 0.9;
-background-size: 20px 20px;
-background-image: repeating-linear-gradient(45deg, #384341 0, #384341 2px, #3c3c3c 0, #3c3c3c 50%);
+  opacity: 0.9;
+  background-color: #3c3c3c;
+  opacity: 0.9;
+  background-size: 20px 20px;
+  background-image: repeating-linear-gradient(45deg, #384341 0, #384341 2px, #3c3c3c 0, #3c3c3c 50%);
   color: #fff;
 }
 
 /* Override mat tab ink color*/
 .mat-tab-group.mat-primary .mat-ink-bar, .mat-tab-nav-bar.mat-primary .mat-ink-bar{
-    background:#f4fb68;
+    background:#04fccb;
   }
  
 /* Change tab lable color */

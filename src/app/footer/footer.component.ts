@@ -19,4 +19,9 @@ export class FooterComponent implements OnInit {
   linkedIn() {
     window.open("https://www.linkedin.com/in/xiaoyazou/");
   }
+
+  mail() {
+    window.open("mailto:xiaoyaxyz@gmail.com");
+  }
+
 }

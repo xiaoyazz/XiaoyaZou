@@ -6,7 +6,7 @@ h2 {
 
 h4 {
     font-weight: 600;
-    color: #f4fb68;
+    color: #04fccb;
 }
 
 h3 {
@@ -15,9 +15,9 @@ h3 {
    font-weight: 600;
 }
 
-.project-card p {
-  font-family: Calibri, sans-serif;
-  font-size: 14px;
+p {
+  font-size: 20px;
+  font-family: 'NTR', sans-serif;
 }
 
 .projects-title {
@@ -40,8 +40,7 @@ h3 {
   transition: 0.3s;
   /* border: 0.5px solid #5b5b5b; */
   color: #fff;
-  font-family: 'IBM Plex Mono', monospace;
-  letter-spacing: 3px;
+  font-family: 'NTR', sans-serif;
   border: 0.5px solid #797a66;
   box-shadow:0px 0px 10px #6d6d6d;
 }
@@ -65,20 +64,19 @@ button {
 
 button:hover {
   cursor: pointer;
-  color: #07fcf8;
+  color: #04fccb;
 }
 
 .btn-view {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 10%;
 }
 
 .btn-view a {
-  border: 1px solid #f4fb68;
-  background-color: #4d4c45;
-  color: #f4fb68;
+  border: 1px solid #04fccb;
+  background-color: #3c3c3c;
+  color: #04fccb;
   font-size: 18px;
   margin-top: 5%;
   border-radius: 5px;
@@ -90,7 +88,7 @@ button:hover {
 }
 
 .btn-view a:hover {
-  background-color: #43423c;
+  background-color: #3c4341;
 }
 
 .anim {

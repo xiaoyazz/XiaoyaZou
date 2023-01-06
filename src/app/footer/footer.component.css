@@ -4,17 +4,22 @@
     bottom:2%;
     text-align: center;
     color: rgb(233, 233, 233);
-    font-size: 18px;
-    font-weight: 200;
     font-family: 'IBM Plex Mono', monospace;
     width: 100%;
 }
 
+p {
+    font-size: 18px;
+    font-family: 'NTR', sans-serif;
+}
+
 i {
-    margin-right: 15px;
+    font-size: 20px;
+    margin-right: 20px;
+    color:#04fccb;
 }
 
 i:hover {
-    color:#07fcf8;
+    color:#fff;
     cursor: pointer;
 }

@@ -11,7 +11,7 @@ h2 {
 
 h4 {
     font-weight: 600;
-    color: #f4fb68;
+    color: #04fccb;
 }
 
 .title {
@@ -29,7 +29,7 @@ h4 {
 }
 
 .org{
-    color: #f4fb68;
+    color: #04fccb;
     margin-right: 10%;
 }
 
@@ -58,14 +58,14 @@ li {
 li::before {
     content: "▹";
     left: 0px;
-    color: #f4fb68;
+    color: #04fccb;
     font-size: 20px;
     line-height: 12px;
     letter-spacing: 10px;
 }
 
 li:hover {
-    color:#07fcf8;
+    color:#04fccb;
     cursor: crosshair;
 }
 
