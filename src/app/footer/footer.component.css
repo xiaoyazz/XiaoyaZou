@@ -1,6 +1,5 @@
 .footer {
     position:relative;
-    margin-top:8%;
     bottom:10px;
     text-align: center;
     color: rgb(233, 233, 233);
@@ -21,4 +20,10 @@ i {
 i:hover {
     color:#fff;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 768px){
+    .footer{
+        margin-top: 15%;
+    }
 }

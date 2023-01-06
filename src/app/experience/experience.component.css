@@ -15,7 +15,7 @@ h4 {
 
 
 .experience-details {
-    margin-top: 5%;
+    margin-top: 3%;
     color: rgb(233, 233, 233);
     display: flex;
     justify-content: space-between;
@@ -40,8 +40,8 @@ ul {
     margin-left: 0;
     padding: 0;
     line-height: 1.6;
-    font-size: 16px;
-    font-weight: 200;
+    font-size: 18px;
+    font-family: 'NTR', sans-serif;
 }
 
 li {
