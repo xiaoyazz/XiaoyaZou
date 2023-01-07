@@ -83,12 +83,17 @@ li:hover {
     }
 
     .job-title {
-    font-size: 20px;
-    font-weight: 400;
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 20px;
     }
 
     h2 {
         font-size: 24px;
+    }
+
+    ul {
+        font-size: 18px;
     }
 
 }
