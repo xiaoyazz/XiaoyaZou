@@ -8,8 +8,9 @@ export class About {
 export const TECHLIST: Tech[] = [
     { name: "JavaScript" },
     { name: "Angular" },
-    { name: "ASP.NET" },
+    { name: "C# & ASP.NET" },
     { name: "Java" },
-    { name: "C#" },
+    { name: "Kotlin" },
+    { name: "Swift"},
     { name: "HTML & CSS" }
 ]
